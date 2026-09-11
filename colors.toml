@@ -1,0 +1,35 @@
+# NZ - Forest: the New Zealand bush after rain.
+# Palette sampled from West Coast and Coromandel rainforest photographs:
+# leaf litter and forest floor for the backgrounds, moss and new fern fronds
+# for the accents, lichen for text, and flowering natives for the ANSI colours.
+mode = "dark"
+
+accent = "#84dc55"
+selection = "#274733"
+muted = "#466b52"
+
+background = "#12241a"
+dark_background = "#0d1b13"
+darker_background = "#08120c"
+lighter_background = "#1b3124"
+
+foreground = "#d2e8c8"
+dark_foreground = "#5f7f66"
+light_foreground = "#a9c69c"
+bright_foreground = "#edf5e6"
+
+red = "#e0705c"
+yellow = "#dcbb45"
+orange = "#d98b3f"
+green = "#84dc55"
+cyan = "#3ac79b"
+blue = "#56a8b8"
+magenta = "#c77fb4"
+brown = "#6f5436"
+
+bright_red = "#ec8a75"
+bright_yellow = "#ecd066"
+bright_green = "#9ee478"
+bright_cyan = "#68d6b0"
+bright_blue = "#84c2d4"
+bright_magenta = "#d99bc7"
