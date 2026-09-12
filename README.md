@@ -3,7 +3,15 @@
 A dark theme for [Omarchy](https://omarchy.org), drawn from the New Zealand bush
 after rain.
 
-![NZ - Forest](preview.png)
+### The theme in use
+
+![The NZ - Forest theme on a desktop](preview.png)
+
+### The photograph behind it
+
+The one the theme opens on: Delphine Ducaruge's West Coast bush boardwalk.
+
+![West Coast bush boardwalk, by Delphine Ducaruge](backgrounds/01-west-coast-boardwalk.jpg)
 
 The palette was sampled from the photographs themselves rather than invented:
 wet leaf litter for the backgrounds, moss and new fern fronds for the accent,
