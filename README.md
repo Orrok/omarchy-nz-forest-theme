@@ -26,7 +26,7 @@ name, so the theme installs as `nz-forest`.
 | File | Purpose |
 |------|---------|
 | `colors.toml` | The palette. Omarchy generates the terminal, editor, btop and shell themes from this. |
-| `hyprland.lua` | Window border colours and a soft drop shadow. |
+| `hyprland.lua` | Rounded corners, inactive-window dimming and a soft drop shadow. |
 | `icons.theme` | Yaru Sage icon theme. |
 | `chromium.theme` | Browser frame tint. |
 | `unlock.png` | The Omarchy wordmark, recoloured to the accent. |
@@ -36,12 +36,38 @@ Filenames in `backgrounds/` are zero-padded on purpose. Omarchy sorts them with
 the locale's collation, which ignores hyphens, so an unpadded `10-` would sort
 ahead of `1-` and the intended first wallpaper would never lead.
 
+### The border gradient
+
+`colors.toml` sets one optional key that does more work than the rest:
+
+```toml
+hyprland_active_border = "accent cyan 45deg"
+```
+
+Omarchy resolves those names against the palette and feeds the result into both
+the Hyprland window border and every shell surface, so notifications, popups,
+menus, the launcher and the lock screen all carry the same new-frond-to-pounamu
+shift rather than a flat green.
+
 ### A note for anyone installing from this repository
 
 Omarchy will not run code from a cloned theme, so it discards `hyprland.lua` on
-install and regenerates the window borders from `colors.toml` instead. You still
-get the green borders. Only the custom drop shadow is lost. This is a deliberate
-safety measure in Omarchy, not a fault in the theme.
+install. The border gradient is deliberately defined in `colors.toml` instead,
+which is never stripped, so it survives. What a cloned install loses is the
+rounded corners, the inactive-window dimming and the drop shadow. Add them back
+in your own `~/.config/hypr/looknfeel.lua`:
+
+```lua
+hl.config({
+  decoration = {
+    rounding = 10,
+    dim_inactive = true,
+    dim_strength = 0.15,
+  },
+})
+```
+
+This is a deliberate safety measure in Omarchy, not a fault in the theme.
 
 ## Photographs
 

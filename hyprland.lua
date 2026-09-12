@@ -1,5 +1,10 @@
--- NZ - Forest: a lit fern frond around the focused window, wet leaf litter around the rest.
-local active_border_color = "rgb(84dc55)"
+-- NZ - Forest: a lit fern frond around the focused window, the rest in shade.
+--
+-- Note for anyone reading this from the repository: Omarchy discards a cloned
+-- theme's .lua files, so the rounding and dimming below apply only when the
+-- theme is a directory you wrote (or a symlink to your own working copy). The
+-- border gradient is set in colors.toml instead, precisely so that it survives.
+local active_border_color = { colors = { "rgba(84dc55ee)", "rgba(3ac79bee)" }, angle = 45 }
 local inactive_border_color = "rgba(27473399)"
 local active_shadow_color = "rgba(08120ccc)"
 local inactive_shadow_color = "rgba(08120c77)"
@@ -20,6 +25,13 @@ hl.config({
   },
 
   decoration = {
+    -- Nothing in a forest is square.
+    rounding = 10,
+
+    -- Unfocused windows recede into shade, the way undergrowth does.
+    dim_inactive = true,
+    dim_strength = 0.15,
+
     shadow = {
       enabled = true,
       range = 8,

@@ -5,6 +5,12 @@
 mode = "dark"
 
 accent = "#84dc55"
+
+# Window/notification/menu border, resolved against the palette above. New fern
+# frond shading into pounamu, at the angle light falls through a canopy. Omarchy
+# feeds this one key into the Hyprland border AND every shell surface, so the
+# whole interface carries the same gradient.
+hyprland_active_border = "accent cyan 45deg"
 selection = "#274733"
 muted = "#466b52"
 
