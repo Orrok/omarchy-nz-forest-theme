@@ -38,11 +38,30 @@ name, so the theme installs as `nz-forest`.
 | `icons.theme` | Yaru Sage icon theme. |
 | `chromium.theme` | Browser frame tint. |
 | `unlock.png` | The Omarchy wordmark, recoloured to the accent. |
-| `backgrounds/` | Ten photographs, every one 3840px wide or larger. |
+| `backgrounds/` | Twenty-four photographs, every one 3840px wide or larger. |
+| `workspace-backgrounds.json` | Which background each Hyprland workspace gets, by workspace name. |
 
 Filenames in `backgrounds/` are zero-padded on purpose. Omarchy sorts them with
 the locale's collation, which ignores hyphens, so an unpadded `10-` would sort
 ahead of `1-` and the intended first wallpaper would never lead.
+
+### One background per workspace
+
+`workspace-backgrounds.json` names a background for each Hyprland workspace, by
+the workspace's name rather than its number, so the choice follows the workspace
+when it moves:
+
+```json
+{
+  "Code": "11-fern-rosette.jpg"
+}
+```
+
+Stock Omarchy draws one background across the whole desktop and ignores this
+file. It is read by a replacement for the `omarchy.background` shell plugin that
+resolves the image per workspace, and per monitor, from its own active
+workspace. A workspace the file says nothing about falls back to the Nth
+background of the theme, so every workspace still lands on something different.
 
 ### The border gradient
 

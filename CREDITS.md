@@ -10,12 +10,20 @@ If you reuse these images, please carry this file with them.
 
 ## Photographers
 
-- **[Athithan Vignakaran](https://unsplash.com/@avignakaran)** — 1 photograph (#02)
+- **[Adele Erolsky](https://unsplash.com/@bechinina)** — 1 photograph (#21)
+- **[Athithan Vignakaran](https://unsplash.com/@avignakaran)** — 3 photographs (#02, #18, #20)
+- **[Bryn Parish](https://unsplash.com/@bparish)** — 1 photograph (#11)
 - **[Delphine Ducaruge](https://unsplash.com/@delphinenz)** — 1 photograph (#01)
 - **[Gaurav Kumar](https://unsplash.com/@countingframez)** — 3 photographs (#03, #06, #10)
-- **[Harley Lin](https://unsplash.com/@v_nut_v)** — 1 photograph (#08)
+- **[Harley Lin](https://unsplash.com/@v_nut_v)** — 2 photographs (#08, #17)
 - **[John Thomas](https://unsplash.com/@capturelight)** — 1 photograph (#09)
+- **[Ma Ti](https://unsplash.com/@masplashti)** — 1 photograph (#19)
 - **[Mac Gaither](https://unsplash.com/@macgaither)** — 1 photograph (#05)
+- **[Nick Da Fonseca](https://unsplash.com/@nickdafonseca)** — 1 photograph (#13)
+- **[Nikhil Prasad](https://unsplash.com/@mrgh0st95)** — 1 photograph (#14)
+- **[Phill Brown](https://unsplash.com/@phillbrown)** — 3 photographs (#12, #15, #16)
+- **[Tim G](https://unsplash.com/@tim1001)** — 1 photograph (#22)
+- **[Tim Marshall](https://unsplash.com/@timmarshall)** — 2 photographs (#23, #24)
 - **[Tom Worrall](https://unsplash.com/@tcfw)** — 1 photograph (#07)
 - **[Yathursan G](https://unsplash.com/@yathursan)** — 1 photograph (#04)
 
@@ -33,6 +41,20 @@ If you reuse these images, please carry this file with them.
 | 8 | `08-wairere-boulders.jpg` | [A bridge in the middle of a lush green forest](https://unsplash.com/photos/GPg74jP8tzw) | [Harley Lin](https://unsplash.com/@v_nut_v) | Wairere Falls Track, Waikato, New Zealand |
 | 9 | `09-bush-waterfall.jpg` | [A small waterfall in the middle of a forest](https://unsplash.com/photos/SqrZCO21V-Y) | [John Thomas](https://unsplash.com/@capturelight) | New Zealand, New Zealand |
 | 10 | `10-moss-stream.jpg` | [A small stream flows through a lush green forest](https://unsplash.com/photos/fMUPlAMVGa4) | [Gaurav Kumar](https://unsplash.com/@countingframez) | Kauaeranga Kauri Trail, Waikato, New Zealand |
+| 11 | `11-fern-rosette.jpg` | [Fern fronds unfurled from above](https://unsplash.com/photos/IDXsYT5xVEE) | [Bryn Parish](https://unsplash.com/@bparish) | Picton, New Zealand |
+| 12 | `12-punakaiki-bush.jpg` | [Deep bush at Punakaiki](https://unsplash.com/photos/tgalbO0binI) | [Phill Brown](https://unsplash.com/@phillbrown) | Punakaiki, West Coast, New Zealand |
+| 13 | `13-humboldt-falls.jpg` | [Humboldt Falls through the trees](https://unsplash.com/photos/J2_99zgzQUQ) | [Nick Da Fonseca](https://unsplash.com/@nickdafonseca) | Humboldt Falls, Southland, New Zealand |
+| 14 | `14-tawharanui-fern.jpg` | [A fern in the Tawharanui bush](https://unsplash.com/photos/hQMpP9yxM2o) | [Nikhil Prasad](https://unsplash.com/@mrgh0st95) | Tawharanui, Tawharanui Peninsula, New Zealand |
+| 15 | `15-silver-fern.jpg` | [The underside of a silver fern](https://unsplash.com/photos/G_cByBGxB2E) | [Phill Brown](https://unsplash.com/@phillbrown) | Punakaiki, West Coast, New Zealand |
+| 16 | `16-red-toadstool.jpg` | [A red toadstool on the forest floor](https://unsplash.com/photos/xbDxErCWGnc) | [Phill Brown](https://unsplash.com/@phillbrown) | Punakaiki, West Coast, New Zealand |
+| 17 | `17-mossy-boulder.jpg` | [A moss-covered boulder in the forest](https://unsplash.com/photos/bgHk4M-qzNE) | [Harley Lin](https://unsplash.com/@v_nut_v) | Goodwin Road, Gordon, New Zealand |
+| 18 | `18-fantail-falls.jpg` | [Fantail Falls in the Mount Aspiring bush](https://unsplash.com/photos/swhZqw4Q39M) | [Athithan Vignakaran](https://unsplash.com/@avignakaran) | Fantail Falls, Mount Aspiring National Park, West Coast, New Zealand |
+| 19 | `19-canopy-overhead.jpg` | [The canopy from underneath](https://unsplash.com/photos/WyFggPs4vY0) | [Ma Ti](https://unsplash.com/@masplashti) | New Zealand |
+| 20 | `20-haast-cloud.jpg` | [Cloud over the bush at Haast Pass](https://unsplash.com/photos/bq1rVf3G3ec) | [Athithan Vignakaran](https://unsplash.com/@avignakaran) | Haast Pass, West Coast, New Zealand |
+| 21 | `21-gates-of-haast.jpg` | [A river running through the forest at the Gates of Haast](https://unsplash.com/photos/VV5Rebo4zv4) | [Adele Erolsky](https://unsplash.com/@bechinina) | Gates of Haast State Highway 6, Mount Aspiring National Park, New Zealand |
+| 22 | `22-matheson-reflection.jpg` | [Snow-capped peaks reflected in Lake Matheson](https://unsplash.com/photos/BrFSOHMGuak) | [Tim G](https://unsplash.com/@tim1001) | Lake Matheson, West Coast Region, New Zealand |
+| 23 | `23-bridal-veil-ferns.jpg` | [Ferns in front of Bridal Veil Falls](https://unsplash.com/photos/lvSKN2Y9eF4) | [Tim Marshall](https://unsplash.com/@timmarshall) | Bridal Veil Falls, Makomako, New Zealand |
+| 24 | `24-bridal-veil-falls.jpg` | [Bridal Veil Falls, Makomako](https://unsplash.com/photos/nxr1Nw4n678) | [Tim Marshall](https://unsplash.com/@timmarshall) | Bridal Veil Falls, Makomako, New Zealand |
 
 ## Credit travels with the files
 
