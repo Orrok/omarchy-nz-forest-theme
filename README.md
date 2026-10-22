@@ -94,7 +94,9 @@ hl.config({
 })
 ```
 
-This is a deliberate safety measure in Omarchy, not a fault in the theme.
+This is a deliberate safety measure in Omarchy, not a fault in the theme. When
+you switch to it, `omarchy-theme-set` reports `Ignored in
+~/.config/omarchy/themes/nz-forest: hyprland.lua`; that message is expected.
 
 ## Photographs
 
