@@ -100,9 +100,9 @@ you switch to it, `omarchy-theme-set` reports `Ignored in
 
 ## Photographs
 
-The ten backgrounds are the work of eight photographers and are used under the
-[Unsplash License](https://unsplash.com/license). Full attribution, including a
-link to every photographer and every original photograph, is in
+The twenty-four backgrounds are the work of sixteen photographers and are used
+under the [Unsplash License](https://unsplash.com/license). Full attribution,
+including a link to every photographer and every original photograph, is in
 **[CREDITS.md](CREDITS.md)**. The same credit is embedded in each JPEG, so it
 travels with the file.
 
