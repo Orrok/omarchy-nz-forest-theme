@@ -34,7 +34,6 @@ name, so the theme installs as `nz-forest`.
 | File | Purpose |
 |------|---------|
 | `colors.toml` | The palette. Omarchy generates the terminal, editor, btop and shell themes from this. |
-| `hyprland.lua` | Rounded corners, inactive-window dimming and a soft drop shadow. |
 | `icons.theme` | Yaru Sage icon theme. |
 | `chromium.theme` | Browser frame tint. |
 | `unlock.png` | The Omarchy wordmark, recoloured to the accent. |
@@ -76,13 +75,12 @@ the Hyprland window border and every shell surface, so notifications, popups,
 menus, the launcher and the lock screen all carry the same new-frond-to-pounamu
 shift rather than a flat green.
 
-### A note for anyone installing from this repository
+### Rounded corners and dimming
 
-Omarchy will not run code from a cloned theme, so it discards `hyprland.lua` on
-install. The border gradient is deliberately defined in `colors.toml` instead,
-which is never stripped, so it survives. What a cloned install loses is the
-rounded corners, the inactive-window dimming and the drop shadow. Add them back
-in your own `~/.config/hypr/looknfeel.lua`:
+A theme installed from a repository may not ship Hyprland code, so this one
+carries none. The border gradient lives in `colors.toml`, which Omarchy turns
+into the Hyprland config for you. If you want the forest's softer shape as well,
+put this in your own `~/.config/hypr/looknfeel.lua`:
 
 ```lua
 hl.config({
@@ -93,10 +91,6 @@ hl.config({
   },
 })
 ```
-
-This is a deliberate safety measure in Omarchy, not a fault in the theme. When
-you switch to it, `omarchy-theme-set` reports `Ignored in
-~/.config/omarchy/themes/nz-forest: hyprland.lua`; that message is expected.
 
 ## Photographs
 
